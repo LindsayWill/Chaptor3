@@ -93,3 +93,12 @@ WriteLine($"x        | {y,7} | {y:B8}");
 WriteLine($"x & y    | {x & y,7} | {x & y:B8}");
 WriteLine($"x | y    | {x | y,7} | {x | y:B8}");
 WriteLine($"x ^ y    | {x ^ y,7} | {x ^ y:B8}");
+// Left-Shift x by three bit columns.
+WriteLine($"x << 3     | {x << 3,7} | {x << 3:B8}");
+
+// Multiply x by 8.
+WriteLine($"x * 3      | {x * 3,7} | {x * 3:B8}");
+
+//Right-shift y by one bit column.
+WriteLine($"y >> 1     | {y >> 1,7} | {y >> 1:B8}");
+
